@@ -1,0 +1,39 @@
+columnSuffix: ziuatvaj
+contentColumnType: text
+fieldGroup: 31006d4c-2f40-498c-9a4c-69cff4fd4279 # Common
+handle: images
+instructions: null
+name: Images
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - URL
+            -
+              - handle
+              - url
+            -
+              - width
+              - ''
+            -
+              - type
+              - url
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

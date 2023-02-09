@@ -1,0 +1,26 @@
+{
+  "require": {
+    "craftcms/cms": "^4.3.8",
+    "craftcms/feed-me": "^5.0",
+    "craftquest/buggy": "*",
+    "vlucas/phpdotenv": "^5.4.0"
+  },
+  "require-dev": {
+    "nystudio107/craft-autocomplete": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    },
+    "sort-packages": true,
+    "platform": {
+      "php": "8.0.2"
+    }
+  }
+}
